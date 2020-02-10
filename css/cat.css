@@ -1,0 +1,92 @@
+.shop{
+	width: 100%;
+	text-align: center;
+	font: 12px "Visby CF Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    background-color:rgb(255, 240, 240);
+    padding: 18px 0px;
+}
+.cats{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+.cats a{
+	color: #111;
+    padding: 0;
+    transition: all .5s ease;
+    text-align: center;
+    font-family:  "Visby CF Demi Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-bottom: solid 1px transparent;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    padding: 0 12px;
+    border-bottom: 1px solid transparent;
+    font-weight:400;
+
+}
+.cats a:hover{
+	text-decoration: underline;
+	transition: 0.5s ease;
+}
+
+.cats a:after{
+	content: "\007C";
+	    line-height: 16px;
+    padding: 0 5px;
+    color: #c1c1c1;
+    position: relative;
+    
+    right: -8px;
+    font-size: 10px;
+    line-height: 14px;
+}
+.cats a.last:after{
+	display: none;
+}
+.cats_show img{
+	width: 100%;
+	filter: brightness(0.9);
+}
+.cats_show img:hover{
+	filter: brightness(1.0);
+	
+	transition:0.5s ease; 
+}
+.cats_show .col-lg-4{
+	margin-top: 40px;
+}
+.cats_show h6{
+	    font: 22px "Visby CF Extra Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 20px 0 40px 0;
+    text-align: center;
+    color:rgb(17, 17, 17);
+    font-weight:700;
+}
+.cats_show div{
+	width: 100%;
+}
+.cat_name{
+	text-align: center;
+	font-size: 2.3em;
+    margin: 20px 0 10px 0;
+    color: #111;
+    font-family: "Visby CF Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    letter-spacing: 0.06em;
+    font-weight: 700;
+}
+.product img{
+	width: 100%;
+
+}
+.product{
+	margin: 0 0 50px 0;
+}
+.products_show{
+	padding:45px 0px;
+    
+}
+.active{
+	text-decoration: underline;
+}

@@ -1,0 +1,49 @@
+@media (max-width: 800px){
+	.first{
+	margin-left: 15px;
+	margin-right: 15px;
+
+	}
+	.cart_row{
+		flex-flow: column-reverse;
+
+	}
+	.form_part{
+		width: 100%;
+		padding-right: 0px;
+	}
+	.logo_img img{
+		padding-left: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+	.prod_part{
+		width: 100%;
+		padding-left: 0px;
+		box-shadow: none;
+	}
+	.input_two select{
+		width: 100%;
+	}
+	.input_two input{
+		width: 100%;
+	}
+	label{
+		width: 90%;
+	}
+	input[type='checkbox']{
+		margin-right: 10px !important;
+		position: relative;
+		top:-10px;
+	}
+	.policies{
+		display: flex;
+		justify-content: space-between;
+	}
+	.policies a{
+		font-size: 14px;
+		margin-right: 0px;	
+	}
+	
+}

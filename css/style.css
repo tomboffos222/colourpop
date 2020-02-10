@@ -1,0 +1,815 @@
+.colourpop_news{
+	text-align: center;
+	font: 11px "Visby CF Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 10px 0;
+    top: 0;
+
+}
+.colourpop_news a{
+	color: #111;
+}
+.header_hamburger span{
+	display: block;
+    position: relative;
+    height: 2px;
+    width: 20px;
+    opacity: 1;
+    left: 0;
+    background: #111;
+    margin-bottom: 5px;
+   
+}
+.cart_show.active .cart_main_parts{
+	overflow: auto;
+	height: 600px !important;
+	text-decoration: none !important;
+}
+.cart_show.active{
+	text-decoration: none !important;	
+}
+
+.cart_main_parts{
+	overflow: auto;
+}
+.header_hamburger{
+	cursor: pointer;
+}
+.header_menu nav{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header_menu li{
+	list-style: none;
+	width: auto;
+}
+.header_menu a{
+	font: 12px "Visby CF Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    pointer-events: all;
+    width: auto;
+   
+	margin-right: 19px;
+	color: #111;
+  
+    transition: 0.3s all;
+    border-bottom: 1px solid transparent;
+    text-transform: uppercase;
+}
+.header_menu a:hover{
+	text-decoration: none;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #111;
+}
+.icons_functional{
+	text-align: right;
+	
+}
+ .owl-nav{
+	position: relative;
+	top:-350px;
+
+
+}	
+.img2{
+	display: none;
+
+}
+.owl-nav span{
+	font-size: 50px !important;
+	font-weight:300;
+
+}
+.owl-prev{
+	position: relative;
+	left:-2%;
+}
+.owl-next{
+	position: relative;
+	left:99%;
+}
+.shopping{
+	height: auto;
+    width: 30px;
+    margin-right: 15px;
+
+}
+.icons_functional a{
+	font-size: 12px;
+    width: 22px;
+    height: 22px;
+    top: 5px;
+    right: 7px;
+    color:#111;
+}
+.fifth .owl-nav{
+	top:-175px;
+
+}
+header{
+	padding-bottom: 20px;
+}
+
+.first img{
+	max-width: 100%;
+	width: 100%;
+	height: 605px;
+}
+.best_sel{
+	    font-size: 14px;
+    font-family: "Visby CF Medium";
+    color: #111;
+    letter-spacing: 0.06em;
+    font-weight: 200;
+       text-align: center;
+	position: relative;
+	
+}
+.best_sel:after{
+	    content: "";
+    height: 1px;
+    width: 40%;
+    background: #111;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.best_sel:before{
+	    content: "";
+    height: 1px;
+    width: 40%;
+    background: #111;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.second{
+	padding: 50px 0px;
+}
+.best_sel h2{
+	font-family: "Visby CF ExtraBold","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+	font-size: 2em;
+	padding: 0 20px;
+}
+.mob_count{
+	position: relative;
+	width: 25px;
+	height: 25px;
+	top:-70px;
+	background-color: #ccc;
+	text-align: center;
+	padding-top: 01%;
+	color:#fff;
+	left:-50px;
+	border-radius: 50px;
+}
+.product{
+	text-align: center;
+}
+.product .add-to-cart{
+	vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    padding: 13px 90px !important;
+
+    border-color: #000;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-family: "Visby CF Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    width: 100%;
+        padding: 13px 5px;
+    font-size: 13px;
+    text-transform: lowercase;
+    letter-spacing: 0.06em;
+    white-space: normal;
+    margin-top: 70px;
+    position: relative;
+    top:30px;
+
+}
+.product button:hover{
+	background-color: #000;
+	color:#fff;
+}
+.product h4{
+	color:rgb(17, 17, 17);
+	font-size: 15px;
+	font-family: "Visby CF ExtraBold","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 900;
+    text-transform: lowercase;
+    width: 86%;
+    margin: 0 auto 5px auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.product a:hover{
+	text-decoration: none;
+}
+.product p{
+	color:rgb(17, 17, 17);
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.product img{
+	margin-bottom: 14px;
+}
+.third img{
+	width: 100%;
+}
+.third .col-lg-6{
+	text-align: center;
+}
+a:hover{
+	text-decoration: none;
+
+}
+.third h5{
+	font-size: 1.8em;
+	color:rgb(17, 17, 17);
+	margin-top: 18px;
+
+}
+.third p{
+	font-size: 14px;
+	color:rgb(17, 17, 17);
+	font-weight:200;
+}
+.fourth img{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.container_new{
+	max-width: 90% !important;
+}
+.best_sel{
+	margin-bottom: 50px;
+}
+.last{
+	margin-right: 0px;
+	padding-left: 15px;
+}
+.header_logo img{
+	    height: 50px;
+	    position: relative;
+	    left:-12%;
+
+}
+.header_logo{
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+.insta_social img:hover{
+	filter: brightness(1);
+}
+.insta_social img{
+	filter: brightness(0.8);
+}
+.social_title{
+	text-align: center;	
+	margin: 20px 0px;
+}
+.social_title p{
+	font-weight: 200;
+	font-family:"Visby CF Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+}
+.social_title h5{
+	font-family:"Visby CF Extra Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1.71429em;
+
+}
+.fifth{
+	background-color:rgb(255, 240, 240);
+}
+.sixth{
+	background-color:rgb(243, 237, 255);
+	text-align: center;
+	padding:60px 0px;
+}
+.desc_soc{
+	color: #111;
+	font-size:16px;
+	font-family:"Visby CF Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:200;
+    margin: 0 0 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.cats_show h6{
+	text-transform: lowercase;
+}
+.watch{
+	background-color:rgb(255, 255, 255);
+	padding:13px 5px;
+	color: #000;
+    font-family: "Visby CF Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: lowercase;
+    letter-spacing: 0.06em;
+    white-space: normal;
+	border:1px solid #000;
+	width: 180px;
+}
+.seventh .col-lg-2 img{
+	width: 90px;
+	height: 90px;
+}
+.seventh .col-lg-2{
+	text-align: center;
+
+}
+
+.seventh .col-lg-2 p{
+	font: 12px "Visby CF Extra Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    color:#111;
+    font-weight: 700;
+
+    margin: 15px auto 10px auto;
+}
+.seventh{
+	padding:40px 0px;
+	background-color:rgb(250, 250, 250);
+}
+.eighth{
+	text-align: center;
+}
+.eighth .title{
+	padding-top: 10px;
+}
+.title h2{
+	font-size: 1.8em;
+	font-family: "Visby CF Extra Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 700;
+    padding: 0.4em 0.4em;
+    margin: 0;
+    font-weight: normal;
+    text-transform: lowercase;
+    letter-spacing: 0.08em;
+}
+.title p{
+	    font-size: 14px;
+    letter-spacing: 0.08em;
+    text-transform: lowercase;
+    margin: 0 auto 20px auto;
+    color:rgb(17, 17, 17);
+}
+.search_form input[type='text']{
+	width: 80%;
+	font: 14px "Visby CF Demi Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+	border:1px solid rgb(17,17,17);
+	padding:15px;	
+    max-width: 480px;
+    font-size: 16px;
+    text-align: left;
+    height: 51px;
+}
+.search_form input[type='submit']{
+	border: 1px solid #111;
+	font: 14px "Visby CF Extra Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+	    width: 20%;
+    max-width: 200px;
+    margin: 0;
+    line-height: 21px;
+    padding:13px 10px;
+    position: relative;
+	font-weight: 700;
+    left:-4px;
+    top:-1px;
+    transition: 0.5s ease;
+    text-transform: lowercase;
+    background-color: #fff;
+    color: #111;
+    height: 51px;
+}
+.search_form input[type='submit']:hover{
+	background-color: #000;
+	color:#fff;
+	border: 1px solid #111;
+}
+.search_form p{
+	margin:10px;
+    font-size: 13px;
+    color:rgb(153, 153, 153);
+        text-align: center;
+    text-transform: initial;
+    font-family: "Visby CF Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: block;
+}
+.social_links a{
+	color:rgb(17, 17, 17);
+	font-size:32px;
+	padding: 0 20px;
+}
+.social_links{
+	margin-top: 30px;
+}
+.menu_footer{
+	margin:40px 0;
+}
+.menu_footer a{
+	padding: 10px 0;
+	margin-right: 20px;
+	font: 12px/1 "Visby CF Extra Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:rgb(17, 17, 17);
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.rights a{
+    color: #111;
+    text-decoration: none;
+    font-size: 11px;
+    font-family:"Visby CF Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:200;
+
+}
+.rights{
+	margin-bottom: 60px;
+}
+.price span{
+	text-decoration: line-through;
+	color:#999;
+	font-size: 12px;
+}
+.prod_info{
+	padding-left: 50px;
+}
+.stick_logo{
+	display: none;
+}
+header.stick{
+	position: fixed;
+	top:0px;
+	width: 100%;
+	background-color: #fff;
+	z-index: 100;
+	padding: 20px 0px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+
+}
+.menu_mob{
+	padding-left: 80px;
+	height: 100vh;
+	background-color: #fff;
+	padding-right: 60px;
+	position: fixed;
+	width: 30%;
+	padding-top: 150px;
+	left:-100%;
+	transition: .5s ease;
+}
+.menu_mob.active{
+	left:0%;
+}
+.header_hamburger.active .block{
+	display: none;
+}
+.overlay{
+	display: none;
+}
+header{
+	z-index: 10;
+	position: relative;
+	top:0px;
+}
+.overlay.active{
+	height: 100vh;
+	background-color: rgba(0,0,0,0.8);
+	width: 100vw;
+	display: block;
+	position: fixed;
+	top:0px;
+	left:0px;
+	z-index: 5;
+}
+.header_hamburger.active .top{
+	transform: rotate(-50deg);
+	position: relative;
+	top:7px;
+}
+.header_hamburger.active .down{
+	transform: rotate(50deg);
+	
+}
+.menu_mob li{
+	list-style: none;
+	font-size: 25px;
+	 display: block;
+    font: 18px "Visby CF Extra Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 700;
+
+    padding: 13px 0;
+    color: #111 !important;
+}
+.menu_mob li a{
+	color: #111 !important;	
+}
+header.stick .stick_logo{
+	width: 150px;
+	height: auto;
+	margin-left: 50px;
+	display: inline-block;	
+}
+header.stick .header_hamburger{
+	display: inline-block;
+}
+header.stick .header_logo{
+	display: none;
+}
+header.stick .col-lg-12{
+	display: none;
+}
+.prod_info input{
+	border:none;
+	font-weight: 700;
+
+	position: relative;
+    font: 1.2em "Visby CF Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.prod_info input[type='number']{
+	width: 87%;
+	text-align: center;
+}
+.prod_info input[type='button']{
+	position: relative;
+
+}
+.prod_info p.desc{
+	font-family:"Visby CF Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	color:rgb(17, 17, 17);
+}
+.header.stick{
+	position: fixed;
+	top:0px;
+}
+.prod_info p.props{
+	color:rgb(17, 17, 17);
+	font-family:"Visby CF Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+.imgs{
+	position: relative;
+
+}
+.prod_info.fixed{
+	position: fixed;
+	transition: 0.5s ease;
+	width: 35%;
+	top:15%;
+	right: 8%;
+
+}
+.dots.fixed{
+	position: fixed;
+	width: 30%;
+	top:50%;
+}
+.billy_mob{
+	display: none;
+}
+.cart_show.active{
+		display: block;
+		position: fixed;
+		z-index: 150;
+		color:#111;
+		top:0px;
+		background-color: #f3edff;
+		height: 100%;
+		right: 0px;
+		width: 28%;
+		padding-left: 30px;
+		padding-right:30px;
+		padding-top: 20px;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+		transition: 0.5s ease;
+}
+.cart_show{
+	position: fixed;
+	right: -30%;
+	transition: 0.5s ease;
+}
+.title_close{
+	display: flex;
+	justify-content: space-between;
+
+}
+.title_close img{
+
+	width: 15px;
+	height: 15px;
+}
+.cart_prod{
+	padding: 20px;
+	display: block;
+	background-color: #fff;
+	display: flex;
+	margin-top: 20px;
+}
+
+.cart_prod img{
+	width: 100px;
+	height: 100px;
+
+}
+
+.reset_prod img{
+	width: 10px;
+
+	height: 10px;
+}
+.reset_prod{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+.info_prod_cart{
+	width: 90%;
+	padding-left: 20px;
+	padding-top: 0px;
+}
+.button_subtotal{
+	position: absolute;
+	bottom: 0;
+	left:0;
+	width: 100%;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.button_subtotal div{
+	font-family:"Visby CF Extra Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:18.2px;
+	font-weight: 700;
+	margin-bottom: 10px;
+
+}
+a.addtocard{
+	color:#fff;
+	width: 100%;
+	border:none;
+	text-align: center;
+	padding: 13px 119px;
+    font-size: 13px;
+    background-color: #000;
+}
+.add{
+	width: 100%;
+}
+.subtotal{
+	display: flex;
+	justify-content: space-between;
+}
+.name_cart{
+	font-size: 13px;
+	font-family:"Visby CF ExtraBold", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-weight: 900;
+	margin-top: 20px;
+}
+.cat_cart{
+	font-size: 12px;
+	font-weight: 400;
+}
+.price_cart{
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+.count_prod_cart{
+	width: 54%;
+	display: flex;
+	border:1px solid #000;
+	justify-content: space-between;
+
+}
+.count_prod_cart input[type='button']{
+	background-color: transparent;
+	border:none;
+}
+.count_prod_cart input[type='number']{
+	border: none;
+	text-align: center;
+	padding-left: 10px;
+}
+@media (max-width: 780px){
+	.first img{
+		height: auto;
+	}
+	.best_sel:after{
+		width: 20%;
+	}
+	.best_sel:before{
+		width: 20%;
+	}
+	.owl-nav{
+		display: none;	
+	}
+	.header_logo img{
+		position: relative;
+		width: 90%;
+		top:15px;
+		
+	}
+	.third .col-lg-6{
+		width: 100%;
+		padding-right: 0px;
+	}
+	.icons_functional{
+		padding-top: 20px;
+	}
+	.header_menu{
+		display: none;
+	}
+	.header_hamburger{
+		position: relative;
+		top:30px;
+	}
+	.billy_desc{
+		display: none;
+	}
+	.billy_mob{
+		display: block;
+	}
+	.cats{
+		display: flex;
+		overflow: auto;
+	}
+	.cats a{
+		padding:0 10px !important;
+		font-size: 16px	 !important;
+		width: 33% !important;
+	}
+	.cats_show .col-lg-4 img{
+		margin-left: 15px;
+	}
+	.cats a:after{
+		display: none;
+	}
+	.imgs{
+		width: 100% !important;
+	}
+	.dots{
+		display: none;
+	}
+	.dots.fixed{
+		position: relative;	
+		display: none;
+	}
+	.prod_info.fixed,
+	.prod_info{
+		position: relative;
+		width:100%;
+		right: 0px;
+		padding-left: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.quantity_goods{
+		justify-content: space-around !important;
+	}
+	.prod_info input[type='number']{
+		width: 70%;
+	}
+	.search_form input[type='text']{
+		width: 100%;
+	}
+	header.stick .stick_logo{
+		margin-left: 90%;
+	}
+	.prod_info input[type='button']{
+		background-color: transparent;
+	}
+	.menu_mob{
+		width: 50%;
+		padding-left: 10px;
+
+	}
+	.overlay{
+		z-index: 9;
+	}
+	.third .col-lg-6{
+		padding-right: 15px;	
+	}
+	.cart_show{
+		right: -100%;
+	}
+	.cart_show.active{
+		width: 100%;
+	}
+
+}

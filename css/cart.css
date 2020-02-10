@@ -1,0 +1,232 @@
+.first{
+	padding: 0 5%;
+	margin-left: 98px;
+	margin-right: 98px;
+
+}
+
+.cart_row{
+	display: flex;
+}
+.form_part{
+	width: 60%;
+	padding-top: 4em;
+	padding-right: 4em;
+	
+
+}
+.prod_part{
+	width: 40%;
+	    box-shadow: 1px 0 0 #e1e1e1 inset;
+	
+}
+.logo_img img{
+	height: auto !important;
+	width: auto !important;
+	padding-left: 25% !important;
+}
+.breadcrumb1{
+	text-align: center;
+	margin-top: 1em;
+}
+.breadcrumb1 a{
+	font-size: 0.85714em;
+	font-family:"Open Sans", sans-serif;
+	margin: 0 0.64286em;
+    color: #737373;
+}
+.breadcrumb1 a.past{
+	color:rgb(186, 154, 195);
+}
+.breadcrumb1 a.active{
+	font-weight: 600;
+    color: #333333;
+}
+.contact_form h2{
+	color: #333333;
+	font-family: Open Sans, sans-serif;
+    font-size: 1.28571em;
+    line-height: 1.3em;
+    font-weight: 300;
+
+}
+.contact_form{
+	margin-top: 30px;
+}
+.contact_form h2{
+	color:#333333;
+	font-family: Open Sans, sans-serif;
+    font-size: 1.28571em;
+    line-height: 1.3em;
+}
+div input[type='email']{
+	width: 100%;
+	border:1px solid #d9d9d9;
+	border-radius:5px;
+	padding:0.92857em 0.78571em;
+	font-size:14px;
+	margin-bottom: 0.92857em;
+}
+input[type='text']{
+	width: 100%;
+	border:1px solid #d9d9d9;
+	border-radius:5px;
+	padding:0.92857em 0.78571em;
+	font-size:14px;
+	margin-bottom: 0.92857em;
+}
+.input_two select{
+	width: 49%;
+	border:1px solid #d9d9d9;
+	border-radius:5px;
+	padding:0.92857em 0.78571em;
+	font-size:14px;
+	margin-bottom: 0.92857em;
+	margin-right: 7px;
+	height: 50px;
+	background-color: transparent;
+	padding-left: 5px;
+}
+.shipping_address p{
+	    margin-bottom: 15px;
+    font-size: 12px;
+    color: #BE42CD;
+}
+input[type='phone']{
+	width: 100%;
+	border:1px solid #d9d9d9;
+	border-radius:5px;
+	padding:0.92857em 0.78571em;
+	font-size:14px;
+	margin-bottom: 0.92857em;
+}
+.shipping_address div p{
+	text-align: right;
+}
+div input[type='checkbox']{
+	margin-right: 0.75em;
+}
+div p input[type='submit']{
+	background-color: #07174f;
+	    box-sizing: border-box;
+    border: 1px transparent solid;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    padding: 1.4em 1.7em;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.input_two input{
+	width: 49%;
+	margin-right: 10px;
+}
+.input_two input.last{
+	margin-right: 0px;
+}
+.policies a{
+	    font-size: 12px;
+	margin-right: 20px;
+	color:rgb(187, 155, 196);
+	font-family:"Open Sans", sans-serif;
+	line-height:18.2px;
+}
+.prod_part{
+	padding-top:56px;
+	padding-left:44px;
+}
+.prod_part img{
+	width: 65px !important;
+	height: 65px !important;	
+}
+.ship_info{
+	display: flex;
+	margin-bottom: 20px;
+
+}
+.ship_info img{
+	border-radius: 10px;
+
+}
+.ship_prod{
+	overflow: auto;
+	padding-top: 20px;
+}
+.prod_name{
+	padding-top: 20px;
+	width: 75%;
+	padding-left:24px;
+	font-weight:600;
+	font-size:14px;
+	font-family:"Open Sans", sans-serif;
+}
+.prod_price{
+	padding-top: 20px;
+	font-weight:600;
+	font-size:14px;
+	font-family:"Open Sans", sans-serif;
+}
+.part_subtotal{
+	display: flex;
+
+	justify-content: space-between;
+}
+.left{
+	color:rgb(83, 83, 83);
+	font-family:"Open Sans", sans-serif;
+	font-size:14px;
+	font-weight:400;
+}
+.part_subtotal{
+	 margin-bottom: 10px;
+}
+.count_ball{
+	width: 30px;
+	height: 30px;
+	background-color: rgba(114,114,114,0.9);
+	text-align: center;
+	position: relative;
+	left:-40px;
+	top:-50px;
+	border-radius: 50px;
+	color:#fff;
+	padding-top: 5px;
+
+}
+.price{
+
+	font-weight:600;
+	font-size:14px;
+	font-family:"Open Sans", sans-serif;
+}
+
+.subtotal p span{
+	text-align: right;
+}
+.total_part p{
+	font-size: 1.14286em;
+	color: #323232;
+}
+.total_part{
+	display: flex;
+	justify-content: space-between;
+}
+.total_part p.total_price{
+	color: #323232;
+	font-weight: 600;
+	letter-spacing: -0.04em;
+	font-family:"Open Sans", sans-serif;
+	font-size:24.0001px;
+}
+.total_part p.total_price span{
+	margin-right: 10px;
+	color: #717171;
+	font-weight: 400;
+	line-height:18.2px;
+	    vertical-align: 0.5em;
+	font-size:12px;
+}
+.subtotal{
+	display: block !important;	
+}
